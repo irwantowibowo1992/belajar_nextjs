@@ -1,4 +1,15 @@
+import { useRouter } from "next/router";
+import { useEffect, useState } from "react";
+
 const UserSettingPage = () => {
+    const [isLogin, setIsLogin] = useState(false);
+    const router = useRouter();
+
+    useEffect(() => {
+        if (!isLogin) {
+            router.push('/auth/login');
+        }
+    }, []);
     return (
         <div>
             <div>

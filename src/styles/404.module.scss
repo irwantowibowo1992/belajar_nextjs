@@ -1,0 +1,19 @@
+.not_found {
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &__image {
+        height: 70%;
+    }
+
+    &__button {
+        background-color: blue;
+        color: white;
+        padding: 7px 20px;
+        border-radius: 25px;
+    }
+}

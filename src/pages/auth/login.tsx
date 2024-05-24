@@ -1,13 +1,12 @@
 import Link from "next/link"
+import styles from "@/views/auth/login";
+import LoginView from "@/views/auth/login";
 
 const LoginPage = () => {
     return (
-        <div>
-            <div>Login Page</div>
-            <p>
-                Belum punya akun? <Link href={"/auth/register"}>Register</Link>
-            </p>
-        </div>
+        <>
+            <LoginView />
+        </>
     )
 }
 

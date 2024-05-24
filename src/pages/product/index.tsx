@@ -1,10 +1,10 @@
+import ProductView from "@/views/product";
+
 const ProductPage = () => {
     return (
-        <div>
-            <div>
-                <h1>Product Page</h1>
-            </div>
-        </div>
+        <>
+            <ProductView />
+        </>
     )
 }
 

@@ -1,0 +1,13 @@
+@import "@/styles/colors.scss";
+
+.product {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .product_title {
+        color: map-get($map: $schema, $key: primary)
+    }
+}

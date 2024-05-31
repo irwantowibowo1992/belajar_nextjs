@@ -1,1 +1,4 @@
-## Custom Error Not Found
+## Client Side Rendering
+
+- With useEffect
+- With SWR

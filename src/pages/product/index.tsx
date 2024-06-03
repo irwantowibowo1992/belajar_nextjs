@@ -2,14 +2,7 @@ import { fetcher } from "@/lib/swr/fetcher";
 import ProductView from "@/views/product";
 import { useEffect, useState } from "react";
 import useSWR from "swr";
-
-type ProductType = {
-    id: number,
-    title: string,
-    price: number,
-    image: string,
-    category: string,
-}
+import { ProductType } from "@/types/product.type";
 
 const ProductPage = () => {
     // const [products, setProducts] = useState<ProductType[]>([]);

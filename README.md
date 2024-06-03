@@ -1,3 +1,3 @@
-## Server Side Rendering
+## Static Site Generation
 
-![Tanpa judul-2024-06-03-1055](https://github.com/irwantowibowo1992/belajar_nextjs/assets/56178630/02ee96e7-f984-41a0-9695-95911c3db62a)
+![Static Site Generation](https://github.com/irwantowibowo1992/belajar_nextjs/assets/56178630/d28a034b-13d6-4e2d-b709-44d2b23a577d)
